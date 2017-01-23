@@ -1,0 +1,6 @@
+framework module Pods_Gappza {
+  umbrella header "Pods-Gappza-umbrella.h"
+
+  export *
+  module * { export * }
+}

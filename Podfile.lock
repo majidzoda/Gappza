@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.0.1)
+  - CryptoSwift (0.6.6)
+  - Stripe (9.1.0)
+  - SwiftyXMLParser (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CryptoSwift
+  - Stripe
+  - SwiftyXMLParser
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CryptoSwift: 88592381b73f36e192124539390a7c9bacda76af
+  Stripe: f9acdd48bd3e4f1b4a91ed260317982db7a2ed65
+  SwiftyXMLParser: 8d2295fb4fbc6e2ff241e7c8d7717e159be35969
+
+PODFILE CHECKSUM: 30352f73ba00699c654467f4197181e701ca66a6
+
+COCOAPODS: 1.1.1

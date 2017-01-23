@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9150D5871E078A8100CED32E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5861E078A8100CED32E /* AccountViewController.swift */; };
+		9150D58C1E078A9500CED32E /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5881E078A9500CED32E /* ChangePassword.swift */; };
+		9150D58D1E078A9500CED32E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5891E078A9500CED32E /* CheckBox.swift */; };
+		9150D58E1E078A9500CED32E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D58A1E078A9500CED32E /* Customer.swift */; };
+		9150D58F1E078A9500CED32E /* GapzaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D58B1E078A9500CED32E /* GapzaAPI.swift */; };
+		9150D59C1E078AA200CED32E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5901E078AA200CED32E /* LogInViewController.swift */; };
+		9150D59D1E078AA200CED32E /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5911E078AA200CED32E /* NewPasswordViewController.swift */; };
+		9150D59F1E078AA200CED32E /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5931E078AA200CED32E /* PaymentViewController.swift */; };
+		9150D5A01E078AA200CED32E /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5941E078AA200CED32E /* PrivacyPolicyViewController.swift */; };
+		9150D5A11E078AA200CED32E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5951E078AA200CED32E /* SettingsViewController.swift */; };
+		9150D5A21E078AA200CED32E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5961E078AA200CED32E /* SignUpViewController.swift */; };
+		9150D5A31E078AA200CED32E /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5971E078AA200CED32E /* TermsAndConditionsViewController.swift */; };
+		9150D5A41E078AA200CED32E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5981E078AA200CED32E /* Transaction.swift */; };
+		9150D5A51E078AA200CED32E /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5991E078AA200CED32E /* TransactionCell.swift */; };
+		9150D5A61E078AA200CED32E /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D59A1E078AA200CED32E /* TransactionStore.swift */; };
+		9150D5A71E078AA200CED32E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D59B1E078AA200CED32E /* User.swift */; };
+		9150D5A91E078BBE00CED32E /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150D5A81E078BBE00CED32E /* Payment.swift */; };
+		9188D3F41DDB13DA000F99B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188D3F31DDB13DA000F99B2 /* AppDelegate.swift */; };
+		9188D3F91DDB13DA000F99B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9188D3F71DDB13DA000F99B2 /* Main.storyboard */; };
+		9188D3FB1DDB13DA000F99B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9188D3FA1DDB13DA000F99B2 /* Assets.xcassets */; };
+		9188D3FE1DDB13DA000F99B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9188D3FC1DDB13DA000F99B2 /* LaunchScreen.storyboard */; };
+		A387835FF41117B8E1257C77 /* Pods_Gappza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA4EA13875C12378C9AA2EC /* Pods_Gappza.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CA4EA13875C12378C9AA2EC /* Pods_Gappza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gappza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9150D5861E078A8100CED32E /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9150D5881E078A9500CED32E /* ChangePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		9150D5891E078A9500CED32E /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		9150D58A1E078A9500CED32E /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9150D58B1E078A9500CED32E /* GapzaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GapzaAPI.swift; sourceTree = "<group>"; };
+		9150D5901E078AA200CED32E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9150D5911E078AA200CED32E /* NewPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		9150D5931E078AA200CED32E /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		9150D5941E078AA200CED32E /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		9150D5951E078AA200CED32E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9150D5961E078AA200CED32E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9150D5971E078AA200CED32E /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		9150D5981E078AA200CED32E /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9150D5991E078AA200CED32E /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		9150D59A1E078AA200CED32E /* TransactionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionStore.swift; sourceTree = "<group>"; };
+		9150D59B1E078AA200CED32E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9150D5A81E078BBE00CED32E /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		9188D3F01DDB13DA000F99B2 /* Gappza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gappza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9188D3F31DDB13DA000F99B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9188D3F81DDB13DA000F99B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9188D3FA1DDB13DA000F99B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9188D3FD1DDB13DA000F99B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9188D3FF1DDB13DA000F99B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C642FA4E65C653D9CB3EF6E0 /* Pods-Gappza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gappza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gappza/Pods-Gappza.release.xcconfig"; sourceTree = "<group>"; };
+		FFA626A912D54104438AF313 /* Pods-Gappza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gappza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gappza/Pods-Gappza.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9188D3ED1DDB13DA000F99B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A387835FF41117B8E1257C77 /* Pods_Gappza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C4C91781360D7B1A36610CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA4EA13875C12378C9AA2EC /* Pods_Gappza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9150D5AA1E088BC100CED32E /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				9150D5961E078AA200CED32E /* SignUpViewController.swift */,
+				9150D58A1E078A9500CED32E /* Customer.swift */,
+				9150D5971E078AA200CED32E /* TermsAndConditionsViewController.swift */,
+				9150D5941E078AA200CED32E /* PrivacyPolicyViewController.swift */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		9150D5AB1E089D0500CED32E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9150D5861E078A8100CED32E /* AccountViewController.swift */,
+				9150D59A1E078AA200CED32E /* TransactionStore.swift */,
+				9150D5991E078AA200CED32E /* TransactionCell.swift */,
+				9150D5981E078AA200CED32E /* Transaction.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		9150D5AC1E089D2600CED32E /* Make Payment */ = {
+			isa = PBXGroup;
+			children = (
+				9150D5931E078AA200CED32E /* PaymentViewController.swift */,
+				9150D5A81E078BBE00CED32E /* Payment.swift */,
+			);
+			name = "Make Payment";
+			sourceTree = "<group>";
+		};
+		9150D5AD1E089D4300CED32E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9150D5951E078AA200CED32E /* SettingsViewController.swift */,
+				9150D5AE1E089D5500CED32E /* Change Password Settings */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		9150D5AE1E089D5500CED32E /* Change Password Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9150D5911E078AA200CED32E /* NewPasswordViewController.swift */,
+				9150D5881E078A9500CED32E /* ChangePassword.swift */,
+			);
+			name = "Change Password Settings";
+			sourceTree = "<group>";
+		};
+		9188D3E71DDB13DA000F99B2 = {
+			isa = PBXGroup;
+			children = (
+				9188D3F21DDB13DA000F99B2 /* Gappza */,
+				9188D3F11DDB13DA000F99B2 /* Products */,
+				AA83D2EAA14D9735C02C8919 /* Pods */,
+				7C4C91781360D7B1A36610CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9188D3F11DDB13DA000F99B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9188D3F01DDB13DA000F99B2 /* Gappza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9188D3F21DDB13DA000F99B2 /* Gappza */ = {
+			isa = PBXGroup;
+			children = (
+				9188D3F31DDB13DA000F99B2 /* AppDelegate.swift */,
+				9188D3F71DDB13DA000F99B2 /* Main.storyboard */,
+				9188D3FA1DDB13DA000F99B2 /* Assets.xcassets */,
+				9188D3FC1DDB13DA000F99B2 /* LaunchScreen.storyboard */,
+				9188D3FF1DDB13DA000F99B2 /* Info.plist */,
+				9150D5901E078AA200CED32E /* LogInViewController.swift */,
+				9150D5AA1E088BC100CED32E /* Sign Up */,
+				9150D5AB1E089D0500CED32E /* Account */,
+				9150D5AC1E089D2600CED32E /* Make Payment */,
+				9150D5AD1E089D4300CED32E /* Settings */,
+				9150D58B1E078A9500CED32E /* GapzaAPI.swift */,
+				9150D5891E078A9500CED32E /* CheckBox.swift */,
+				9150D59B1E078AA200CED32E /* User.swift */,
+			);
+			path = Gappza;
+			sourceTree = "<group>";
+		};
+		AA83D2EAA14D9735C02C8919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA626A912D54104438AF313 /* Pods-Gappza.debug.xcconfig */,
+				C642FA4E65C653D9CB3EF6E0 /* Pods-Gappza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9188D3EF1DDB13DA000F99B2 /* Gappza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9188D4021DDB13DA000F99B2 /* Build configuration list for PBXNativeTarget "Gappza" */;
+			buildPhases = (
+				547AC17BA9BFCC5FC17B485E /* [CP] Check Pods Manifest.lock */,
+				9188D3EC1DDB13DA000F99B2 /* Sources */,
+				9188D3ED1DDB13DA000F99B2 /* Frameworks */,
+				9188D3EE1DDB13DA000F99B2 /* Resources */,
+				439728B51C45F2D9E082E202 /* [CP] Embed Pods Frameworks */,
+				BD50B99CA83012A4AF467D20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gappza;
+			productName = Gappza;
+			productReference = 9188D3F01DDB13DA000F99B2 /* Gappza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9188D3E81DDB13DA000F99B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Biki;
+				TargetAttributes = {
+					9188D3EF1DDB13DA000F99B2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WW9GUPMXW3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9188D3EB1DDB13DA000F99B2 /* Build configuration list for PBXProject "Gappza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9188D3E71DDB13DA000F99B2;
+			productRefGroup = 9188D3F11DDB13DA000F99B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9188D3EF1DDB13DA000F99B2 /* Gappza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9188D3EE1DDB13DA000F99B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188D3FE1DDB13DA000F99B2 /* LaunchScreen.storyboard in Resources */,
+				9188D3FB1DDB13DA000F99B2 /* Assets.xcassets in Resources */,
+				9188D3F91DDB13DA000F99B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		439728B51C45F2D9E082E202 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gappza/Pods-Gappza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547AC17BA9BFCC5FC17B485E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD50B99CA83012A4AF467D20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gappza/Pods-Gappza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9188D3EC1DDB13DA000F99B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9150D58D1E078A9500CED32E /* CheckBox.swift in Sources */,
+				9150D5A01E078AA200CED32E /* PrivacyPolicyViewController.swift in Sources */,
+				9150D58E1E078A9500CED32E /* Customer.swift in Sources */,
+				9150D58F1E078A9500CED32E /* GapzaAPI.swift in Sources */,
+				9150D59C1E078AA200CED32E /* LogInViewController.swift in Sources */,
+				9150D5871E078A8100CED32E /* AccountViewController.swift in Sources */,
+				9150D5A51E078AA200CED32E /* TransactionCell.swift in Sources */,
+				9150D58C1E078A9500CED32E /* ChangePassword.swift in Sources */,
+				9150D59D1E078AA200CED32E /* NewPasswordViewController.swift in Sources */,
+				9150D59F1E078AA200CED32E /* PaymentViewController.swift in Sources */,
+				9188D3F41DDB13DA000F99B2 /* AppDelegate.swift in Sources */,
+				9150D5A61E078AA200CED32E /* TransactionStore.swift in Sources */,
+				9150D5A21E078AA200CED32E /* SignUpViewController.swift in Sources */,
+				9150D5A71E078AA200CED32E /* User.swift in Sources */,
+				9150D5A31E078AA200CED32E /* TermsAndConditionsViewController.swift in Sources */,
+				9150D5A11E078AA200CED32E /* SettingsViewController.swift in Sources */,
+				9150D5A91E078BBE00CED32E /* Payment.swift in Sources */,
+				9150D5A41E078AA200CED32E /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9188D3F71DDB13DA000F99B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188D3F81DDB13DA000F99B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9188D3FC1DDB13DA000F99B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188D3FD1DDB13DA000F99B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9188D4001DDB13DA000F99B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9188D4011DDB13DA000F99B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9188D4031DDB13DA000F99B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA626A912D54104438AF313 /* Pods-Gappza.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WW9GUPMXW3;
+				INFOPLIST_FILE = Gappza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fira.gappza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9188D4041DDB13DA000F99B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C642FA4E65C653D9CB3EF6E0 /* Pods-Gappza.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WW9GUPMXW3;
+				INFOPLIST_FILE = Gappza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fira.gappza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9188D3EB1DDB13DA000F99B2 /* Build configuration list for PBXProject "Gappza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9188D4001DDB13DA000F99B2 /* Debug */,
+				9188D4011DDB13DA000F99B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9188D4021DDB13DA000F99B2 /* Build configuration list for PBXNativeTarget "Gappza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9188D4031DDB13DA000F99B2 /* Debug */,
+				9188D4041DDB13DA000F99B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9188D3E81DDB13DA000F99B2 /* Project object */;
+}
